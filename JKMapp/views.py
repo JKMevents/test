@@ -7,9 +7,4 @@ def mambers(request):
 
 
 def Home(request):
-    return render(
-        request,
-        HttpResponse("hi this is test page"),
-        {}
-    )
-
+    return HttpResponse("this is a test file")
