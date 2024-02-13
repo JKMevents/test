@@ -9,6 +9,7 @@ def mambers(request):
 def Home(request):
     return render(
         request,
-        "index.html",
+        HttpResponse("hi this is test page"),
         {}
     )
+
